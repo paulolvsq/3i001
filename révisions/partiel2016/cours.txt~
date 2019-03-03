@@ -1,0 +1,13 @@
+1) 
+
+2) Runnable permet de modifier la méthode run() pour définir un comportement
+spécifique à chaque thread correspondant à une instance de l'objet créé.
+De plus, si on étend Thread, on peut oublier de définir un comportement
+au Thread et cela ne produira pas d'erreur alors que si on l'oublie dans le
+Runnable, cela lève une exception.
+
+3) Exclusion mutuelle, les processus utilisent simultanément plusieurs
+ressources acquises au fur et à mesure de l'exécution sans libérer les
+précédentes, réservation des ressources potentiellement bloquante, cycle de
+processus qui attend une ressource d'un processus qui est censé le précéder
+mais qui est déjà exécuté.

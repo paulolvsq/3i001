@@ -1,0 +1,14 @@
+public class Cons extends Runnable{
+
+    private UneInteraction i;
+	private int id;
+	private static final Object mutex = new Object(); 
+	private static int cpt = 0;
+
+	public Cons(UneInteraction i){
+		this.i = i;
+		synchronized(mutex){
+			cpt++;
+			id = cpt;
+		}
+	}

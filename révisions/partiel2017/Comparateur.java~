@@ -1,0 +1,13 @@
+public class Comparateur implements Runnable{
+
+	private Tableau t;
+	private int i;
+	private Synchroniseur s;
+
+	public Comparateur(Tableau t; int i; Synchronoseur s){
+		this.t = t;
+		this.i = i;
+		this.s = s;
+	}
+
+	

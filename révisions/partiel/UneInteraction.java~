@@ -1,0 +1,8 @@
+public class UneInteraction{
+
+	private ReentrantLock l = new ReentrantLock();
+	private Condition ecrire = l.newCondition();
+	private Condition lire = l.newCondition();
+	private String message = "";
+	private boolean plein = false;
+	

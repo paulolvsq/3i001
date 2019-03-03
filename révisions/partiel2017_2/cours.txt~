@@ -1,0 +1,6 @@
+1) notify() va réveiller un seul processus de la file d'attente associé au
+verrou d'un objet, alors que notifyAll() les réveille tous.
+
+3) La programmation répartie utilise des éléments de la programmation
+séquentielle pour exécuter plusieurs threads simultanément, alors que la
+programmation multi coeur n'exécute qu'une thread par coeur.

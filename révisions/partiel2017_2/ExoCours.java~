@@ -1,0 +1,5 @@
+public class ExoCours{
+
+	public static void main(String[] args){
+
+		Travail[5] tab = new Travail[5];
